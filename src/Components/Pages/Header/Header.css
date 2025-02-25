@@ -1,0 +1,48 @@
+.logo {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nav-list>li {
+    font-weight: 500;
+    color: #565050;
+    position: relative;  
+    display: inline-block;  
+}
+
+.nav-list>li::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height: 1.4px;
+    width: 0%; 
+    background-color: #565050;
+    display: inline-block;
+}
+
+.nav-list>li:hover::after {
+    animation-name: slider;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+@keyframes slider {
+    0% {
+        width: 0%;
+        left: 0;
+    }
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0%;
+        left: 100%; 
+    }
+}
+
+.active-link{
+    color: #0b0b0b;
+    font-weight: semibold;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
