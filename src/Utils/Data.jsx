@@ -81,7 +81,7 @@ export const filterOptions = {
       brand: "Titan",
       description:
         "Branded Titan premium watch lorem ipsum creata da la eren mik asa",
-      price: "1299",
+      price: "1,299",
       like: false,
     },
     {
@@ -89,7 +89,7 @@ export const filterOptions = {
       brand: "Jordan",
       description:
         "Jordan Premium sneaker shoes lorem ipsum creata da la eren mik asa",
-      price: "23899",
+      price: "23,899",
       like: false,
     },
     {
@@ -97,7 +97,7 @@ export const filterOptions = {
       brand: "Lazza",
       description:
         "Lazza the branded winter sweater sellers lorem ipsum creata da la eren mik asa",
-      price: "3499",
+      price: "3,499",
       like: false,
     },
     {
@@ -122,7 +122,7 @@ export const filterOptions = {
       brand: "Titan",
       description:
         "Branded Titan premium watch lorem ipsum creata da la eren mik asa",
-      price: "1299",
+      price: "1,299",
       like: false,
     },
   ],
@@ -132,7 +132,7 @@ export const filterOptions = {
       brand: "Jordan",
       description:
         "Jordan Premium sneaker shoes lorem ipsum creata da la eren mik asa",
-      price: "23899",
+      price: "23,899",
       like: false,
     },
     {
@@ -140,7 +140,7 @@ export const filterOptions = {
       brand: "Lazza",
       description:
         "Lazza the branded winter sweater sellers lorem ipsum creata da la eren mik asa",
-      price: "3499",
+      price: "3,499",
       like: false,
     },
   ],
@@ -150,7 +150,7 @@ export const filterOptions = {
       brand: "Lazza",
       description:
         "Lazza the branded winter sweater sellers lorem ipsum creata da la eren mik asa",
-      price: "3499",
+      price: "3,499",
       like: false,
     },
     {

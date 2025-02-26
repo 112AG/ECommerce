@@ -63,7 +63,7 @@ function Home({isLoggedIn}) {
       <div className="p-6 h-full w-full bg-red flex flex-col justify-center items-center">
         <h1 className="font-bold text-[28px] ">This Season’s best Seller</h1>
 
-        <div className="w-full h-full flex flex-wrap py-4 ">
+        <div className="w-full flex flex-wrap justify-center gap-4 ">
           {bestSells.map((data, idx) => (
             <BestSells data={data} key={idx} />
           ))}

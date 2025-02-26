@@ -11,7 +11,7 @@ import Profile from "./Components/Pages/Profile/Profile";
 import Cart from './Components/Pages/Cart/Cart';
 import Dashboard from './Components/Pages/Dashboard/Dashboard';
 import PrivateRoute from './Utils/PrivateRoute';
-import RandomRoute from "./Utils/RandomRoute";
+import NotFound from "./Utils/NotFound";
 
 const App = () => {
 
@@ -31,7 +31,7 @@ const App = () => {
             <Dashboard />
           </PrivateRoute>} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="*" element={<RandomRoute />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer/>
     </Router>
