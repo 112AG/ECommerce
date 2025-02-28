@@ -85,7 +85,7 @@ function Login({setIsLoggedIn}) {
         </p>
       </div>
       <div className="flex -z-20 w-[50vw]">
-        <img src={LoginImage} alt="Login" />
+        <img cle={LoginImage} alt="Login" />
       </div>
     </div>
   );

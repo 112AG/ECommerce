@@ -10,9 +10,9 @@ function Footer() {
         <div className='text-center w-[240px] leading-tight'>
           <h1 className='font-bold text-4xl [text-shadow:_0_2px_4px_rgb(0_0_0_/_0.6)]'>Leverk</h1>
           <ul className='flex items-center justify-center gap-2 py-2'>
-            <li className={`${toggle? 'bg-black border-white text-white':'bg-gray-100 border-black text-black'} cursor-pointer h-[32px] w-[32px] flex items-center justify-center font-bold border rounded-full`}><i class="ri-facebook-fill"></i></li>
-            <li className={`${toggle? 'bg-black border-white text-white':'bg-gray-100 border-black text-black'} cursor-pointer h-[32px] w-[32px] flex items-center justify-center font-bold border rounded-full`}><i class="ri-twitter-fill"></i></li>
-            <li className={`${toggle? 'bg-black border-white text-white':'bg-gray-100 border-black text-black'} cursor-pointer h-[32px] w-[32px] flex items-center justify-center font-bold border rounded-full`}><i class="ri-instagram-fill"></i></li>
+            <li className={`${toggle? 'bg-black border-white text-white':'bg-gray-100 border-black text-black'} cursor-pointer h-[32px] w-[32px] flex items-center justify-center font-bold border rounded-full`}><i className="ri-facebook-fill"></i></li>
+            <li className={`${toggle? 'bg-black border-white text-white':'bg-gray-100 border-black text-black'} cursor-pointer h-[32px] w-[32px] flex items-center justify-center font-bold border rounded-full`}><i className="ri-twitter-fill"></i></li>
+            <li className={`${toggle? 'bg-black border-white text-white':'bg-gray-100 border-black text-black'} cursor-pointer h-[32px] w-[32px] flex items-center justify-center font-bold border rounded-full`}><i className="ri-instagram-fill"></i></li>
           </ul>
         </div>
 
@@ -32,7 +32,7 @@ function Footer() {
           about our new solutions</p>
           <div className='border border-white rounded py-2 px-4 flex justify-between placeholder:text-white'>
             <input type="email" placeholder='Email' className='outline-none' />
-            <i><i class="ri-mail-line hover:border cursor-pointer border-white p-1 px-2 rounded-[2px]"></i></i>
+            <i><i className="ri-mail-line hover:border cursor-pointer border-white p-1 px-2 rounded-[2px]"></i></i>
           </div>
         </div>
       </div>

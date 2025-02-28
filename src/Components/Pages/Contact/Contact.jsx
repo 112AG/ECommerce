@@ -46,7 +46,7 @@ function Contact() {
           <ul className="flex flex-col items-start">
             <li className="flex gap-2 pb-1">
               <div className="h-[38px] w-[38px] bg-black text-white flex items-center justify-center rounded-full">
-                <i class="ri-map-pin-fill"></i>
+                <i className="ri-map-pin-fill"></i>
               </div>{" "}
               <div className="flex flex-col text-[12px]">
                 <span className="font-semibold text-[14px]">Address</span>32 new
@@ -55,7 +55,7 @@ function Contact() {
             </li>
             <li className="flex item-center  gap-2 pb-1">
               <div className="h-[38px] w-[38px] bg-black text-white flex items-center justify-center rounded-full">
-                <i class="ri-contacts-fill"></i>
+                <i className="ri-contacts-fill"></i>
               </div>{" "}
               <div className="flex flex-col text-[12px]">
                 <span className=" text-[14px] font-semibold">Phone Number</span>
@@ -64,7 +64,7 @@ function Contact() {
             </li>
             <li className="flex item-center gap-2 pb-1">
               <div className="h-[38px] w-[38px] bg-black text-white flex items-center justify-center rounded-full">
-                <i class="ri-mail-fill"></i>
+                <i className="ri-mail-fill"></i>
               </div>{" "}
               <div className="flex flex-col text-[12px]">
                 <span className="font-semibold text-[14px]">Email</span>

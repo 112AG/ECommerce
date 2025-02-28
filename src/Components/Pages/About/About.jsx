@@ -20,7 +20,7 @@ function About() {
           <h1 className='font-extrabold text-6xl w-[55vw] quote'>‘‘Our Work does make sense only if it is a faithful witness of his time.’’</h1>
         </div>
         <div className='w-[40vw]'>
-          <img className='w-full' src={AboutUs} alt="" />
+          <img className='w-full' src={AboutUs} alt="About" />
         </div>
       </div>
     </div>
